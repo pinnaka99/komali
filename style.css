@@ -1,0 +1,108 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-center;
+
+}
+.childOne{
+
+  width: 30%;
+  padding: 2%;
+  border: 3px solid blue;
+  text-align: center;
+
+
+  margin: 3%;
+
+
+}
+.chilTwo{
+  width: 30%;
+  padding: 2%;
+  border: 3px solid red;
+  background-color: red;
+  margin: 3%;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+background:black;
+  }
+  .childOne{
+
+    width: 30%;
+    padding: 2%;
+    border: 3px solid orange;
+    text-align: left;
+
+    margin: 3%;
+
+
+  }
+  .chilTwo{
+    width: 30%;
+    padding: 2%;
+    border: 3px solid red;
+    background-color: #a0b58e;
+    margin: 3%;
+  }
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+background:blue;
+  }
+  .childOne{
+
+    width: 30%;
+    padding: 2%;
+    border: 3px solid orange;
+    text-align: left;
+
+    margin: 3%;
+
+
+  }
+  .chilTwo{
+    width: 30%;
+    padding: 2%;
+    border: 3px solid red;
+    background-color: #a0b58e;
+    margin: 3%;
+  }
+
+}@media only screen and (min-width: 1024px) and (max-width: 1094px)
+{
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+background:orange;
+  }
+  .childOne{
+
+    width: 30%;
+    padding: 2%;
+    border: 3px solid orange;
+    text-align: left;
+
+    margin: 3%;
+
+
+  }
+  .chilTwo{
+    width: 30%;
+    padding: 2%;
+    border: 3px solid red;
+    background-color: #a0b58e;
+    margin: 3%;
+  }
+
+}
